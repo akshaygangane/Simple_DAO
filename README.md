@@ -15,8 +15,11 @@
 # DAO Functions
 
 -->constructor(uint _contributionTimeEnd, uint _voteTime, uint _quorum)
+
    -->"_contributionTimeEnd" refers to the time limit which is set for the investors for contributing to the project.
+   
    -->"_voteTime" refers to the time limit set for voting for proposal.
+   
    -->"_quoram" refers to the minimum number of people required to pass a proposal.
    
 -->
