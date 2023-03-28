@@ -11,6 +11,8 @@
 
 -->Members of DAO use blockchain based tokens to vote on proposals and make decisions collectively.
 
+--> In this DAO project we will have two main entities investors and managers. Investors will invest money and managers will create proposals execute them. If any proposal comes then it will be voted by the investors and then accessed.
+
 
 # DAO Functions
 
