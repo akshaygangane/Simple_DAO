@@ -14,7 +14,7 @@
 
 # DAO Functions
 
--->constructor(uint _contributionTimeEnd, uint _voteTime, uint _quorum)
+## constructor(uint _contributionTimeEnd, uint _voteTime, uint _quorum)
 
    ---->"_contributionTimeEnd" refers to the time limit which is set for the investors for contributing to the project.
    
@@ -23,22 +23,22 @@
    ---->"_quoram" refers to the minimum number of people required to pass a proposal.
    
    
--->function contribution() external payable
+## function contribution() external payable
  
  ----> This function allows investors to contribute to the project by buying tokens. This "payable" keyword allows contract account to receive ethers or any other crypto or tokens.
  
 
---> function transferShare(uint amount, address to) public onlyInvestor()
+## function transferShare(uint amount, address to) public onlyInvestor()
 
 ----> This transferShare function allows investors to transfers tokens to other accounts. It has modifier onlyInvestor() which restrict the function such that it can only be called by investors or what ever is specified in onlyInvestor() modifier.
 
 
--->function redeemShare(uint amount) external onlyInvestor()
+## function redeemShare(uint amount) external onlyInvestor()
 
 ----> This functin allows investors to redeem their tokens.
 
 
---> function voteProposal(uint proposalId) public onlyInvestor()
+## function voteProposal(uint proposalId) public onlyInvestor()
 
 ----> This function is used to vote for the proposal.
 
