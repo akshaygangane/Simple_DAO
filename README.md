@@ -37,7 +37,7 @@
 
 ### function redeemShare(uint amount) external onlyInvestor()
 
-----> This functin allows investors to redeem their tokens.
+----> This function allows investors to redeem their tokens.
 
 
 ### function voteProposal(uint proposalId) public onlyInvestor()
